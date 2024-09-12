@@ -1,0 +1,51 @@
+:root {
+
+    /* === Color Scheme used https://www.canva.com/colors/color-palettes/bonfire-glow/
+    /* === Alt Color Scheme https://www.canva.com/colors/color-palettes/san-francisco-mornings/
+
+    /* === Cover / Landing area === */
+    --cover-text-color: #970c10;
+    /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
+    --highlight: #bfcad0;
+    --highlight-contrast: var(--cover-text-color);
+    /*inverse colors used for :hover */
+    --highlight-inverse: var(--cover-text-color);
+    --highlight-inverse-contrast: white;
+
+    /* visual guard around title and description, when the feature is enabled */
+    --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
+    --cover-title-text-shadow: white 0px 0px 24px;
+
+
+    /* === sticky top/left navigation menus === */
+    --sticky-menu-text-color: #970c10;
+
+
+    /* === Alternating content (post) sections  === */
+    /* Light section - text color */
+    --section-light-text-color: #000000;
+    /* Light section - background color */
+    --section-light-bg-color: #bfcad0;
+
+    /* Dark section - text color */
+    --section-dark-text-color: var(--section-light-text-color);
+    /* Dark section - background color */
+    --section-dark-bg-color: #738580;
+
+    /* Light&Dark section >quote. Supressive color, compared to 'Light section - text color'*/
+    --section-uni-quote: #970c10;
+    /* Light&Dark section `code` a bit darker than 'Light section - background color' */
+    --section-uni-code-bg-color: #e0ded7;
+
+    /* === Single pages=== */
+    --single-page-text-color: var(--section-light-text-color);
+    --single-page-bg-color: var(--section-light-bg-color);
+
+    /* === Footer === */
+    --footer-color-background: #474440;
+    --footer-color: white;
+
+    /* === Lists === */
+    /* define list element for unnumbered lists, leave empty for default list element */
+    --ul-li-icon: fa-asterisk;
+}

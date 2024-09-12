@@ -1,0 +1,9 @@
+<div class="container">
+    <iframe
+        src="{{ .Get "iframeSrc" }}" 
+        width="{{ .Get "width" | default "640" }}"
+        height="{{ .Get "height" | default "480" }}"
+        frameborder="0"
+        style="border:0">
+    </iframe>
+</div>
