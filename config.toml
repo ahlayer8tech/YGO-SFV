@@ -35,10 +35,10 @@ title = "YGO SFV"
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Jane Doe - Nutrition Coach & Chef Consultant"
+    title = "AHLayer8Tech presents YGO SFV - Tracking Yugioh Tournaments and Locals in and around the San Fernando Valley"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Nutrition Coach & Chef Consultant"
+    description = "A website for tracking Yugioh trading card game local tournaments and events in and around the San Fernando Valley."
 
     # Show a menu of languages available
     language_menu = true
@@ -66,18 +66,12 @@ title = "YGO SFV"
     showFooterLinks = false
 
     [params.meta]
-        keywords = "some, keywords, for, seo, you, know, google, duckduckgo, and, such"
-
-    [[params.contacts]]
-        label = "phone"
-        value = "+49 1111 555555"
-        url = "tel:+49 1111 555555"
-        icon = "fa fa-phone"
+        keywords = "yugioh, yu-gi-oh!, ygo, yu-gi-oh! trading card game, yu-gi-oh! tcg, yugioh tcg, yugiohtcg, tcg, trading card game, ots, official tournament store, lgs, local game store, cardshop, locals, events, tournaments, regionals, case tournaments, san fernando valley, sfv, los anageles, la, southern california, socal, play yugioh, play yu-gi-oh!"
 
     [[params.contacts]]
         label = "email"
-        value = "mail@janedoe.com"
-        url = "mailto:mail@janedoe.com"
+        value = "ahlayer8tech.vcaco[at]aleeas.com"
+        url = "mailto:ahlayer8tech.vcaco[at]aleeas.com"
         icon = "fa fa-envelope"
 
     # Add additional contacts here!
